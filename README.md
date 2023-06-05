@@ -2,7 +2,7 @@
 Google reCAPTCHA のPHPフォームサンプル
 
 ## 環境構築
-1. PHP環境を構築する
+1. PHP環境を構築する ※[Dockerサンプル](https://github.com/takanori-azegami-jp/docker-rpi-apache-php)
 
 2. [Google reCAPTCHA](https://www.google.com/recaptcha/about/)でキーを取得
 
