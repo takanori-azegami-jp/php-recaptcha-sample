@@ -5,7 +5,7 @@ Google reCAPTCHA のPHPフォームサンプル
 1. PHP環境を構築する
 
 2. reCAPTCHAキー取得
--[Google reCAPTCHA](https://www.google.com/recaptcha/about/)でキーを取得
+[Google reCAPTCHA](https://www.google.com/recaptcha/about/)でキーを取得
 
 3. fromにキー埋め込みreCAPTCHAを実行する
 
