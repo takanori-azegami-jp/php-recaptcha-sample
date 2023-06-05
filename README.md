@@ -10,4 +10,4 @@ Google reCAPTCHA のPHPフォームサンプル
 
 ## 参考
 - [Google reCAPTCHA の使い方（v2/v3）](https://www.webdesignleaves.com/pr/plugins/google_recaptcha.php)
-- [[Google reCAPTCHA v3をPHPのフォームで導入する](https://brainlog.jp/programming/post-2567/)]([https://mugenweb-note.com/web/php/google-recaptcha-v3-php)]
+- [Google reCAPTCHA v3をPHPのフォームで導入する](https://brainlog.jp/programming/post-2567/)
