@@ -6,20 +6,20 @@ $sitekey = "サイトキー";
 
 <head>
 
-	<script src="https://www.google.com/recaptcha/enterprise.js?render=サイトキー"></script>
+	<script src="https://www.google.com/recaptcha/enterprise.js?render=<?php echo $sitekey ?>"></script>
 	<title>reCAPTCHAサンプル</title>
 	<script>
-		var verifyCallback = function(response) { //コールバック関数の定義
-			//#warning の p 要素のテキストを空にf
+		var verifyCallback = function(response) { //コールバック関数
+			//#warning の p 要素のテキストを空で設定
 			document.getElementById("warning").textContent = '';
 			//#send の button 要素の disabled 属性を解除
 			document.getElementById("send").disabled = false;
 			console.log("recaptcha-有効化");
 			console.log(response);
 		};
-		var expiredCallback = function() { //コールバック関数の定義
+		var expiredCallback = function() { //コールバック関数
 			//#warning の p 要素のテキストに文字列を設定
-			document.getElementById("warning").textContent = '送信するにはチェックを・・・';
+			document.getElementById("warning").textContent = '送信するにはチェックを入れてください。';
 			//#send の button 要素に disabled 属性を設定
 			document.getElementById("send").disabled = true;
 		};
